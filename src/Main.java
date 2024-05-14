@@ -5,7 +5,7 @@ public class Main {
         double[] digits = new double[n];
         System.out.printf("Задан массив из %d элементов:\n", n);
         for (int i = 0; i < digits.length; i++) {
-            digits[i] = Math.round(Math.random() * 100);
+            digits[i] = Math.random() * 100;
             System.out.printf("%.0f ", digits[i]);
         }
 
